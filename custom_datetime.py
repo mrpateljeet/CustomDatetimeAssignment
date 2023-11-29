@@ -102,4 +102,4 @@ class CustomDatetime:
         try:
             date_obj = datetime.datetime.strptime(date_string, "%Y-%m-%d %H:%M:%S")
             return cls(date_obj.year, date_obj.month, date_obj.day,
-                       date_obj.hour, date_obj.minute, date
+                       date_obj.hour, date_obj.minute, date)
